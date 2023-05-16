@@ -59,6 +59,24 @@ MAIN
     width: 30%;
 }
 
+.business{
+    flex-wrap: wrap;
+}
+
+.six-column{
+    width: calc(100% / 3);
+}
+
+.square-column{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-box{
+    width: calc(100% / 2);
+}
 /* 
 FOOTER
 */
@@ -107,4 +125,18 @@ DEBUG
 .debug .team-box{
     background-color: cadetblue;
     min-height: 200px;
+}
+
+.debug .six-column{
+    background-color: lightseagreen;
+    border: 1px solid black;
+    min-height: 250px;
+}
+
+.debug .square-column{
+    background-color: lightgrey;
+}
+
+.debug .logo-box{
+    background-color: brown;
 }
