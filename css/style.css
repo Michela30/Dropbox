@@ -38,10 +38,26 @@ header{
 MAIN
 */
 
+.my-row{
+    display: flex;
+}
 
+.small-column{
+    width: 30%;
+}
 
+.big-column{
+    width: 50%;
+}
 
+.price-row{
+    display: flex;
+    justify-content: space-between;
+}
 
+.price-column{
+    width: 30%;
+}
 
 /* 
 FOOTER
@@ -70,4 +86,25 @@ DEBUG
 
 .debug footer{
     background-color: lightgreen;
+}
+
+.debug .small-column{
+    background-color: blueviolet;
+    min-height: 250px;
+}
+
+.debug .big-column{
+    background-color: palevioletred;
+    min-height: 250px;
+}
+
+.debug .price-column{
+    background-color: aquamarine;
+    border: 2px solid black;
+    min-height: 700px;
+}
+
+.debug .team-box{
+    background-color: cadetblue;
+    min-height: 200px;
 }
