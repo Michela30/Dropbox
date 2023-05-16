@@ -21,6 +21,25 @@
     max-width: 800px;
 }
 
+h1{
+    font-size: 3.5em;
+}
+
+p{
+    font-size: small;
+}
+
+button{
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.blue-button{
+    color: white;
+    background-color: #0061FF;
+}
+
 /* 
 HEADER
 */
@@ -28,16 +47,47 @@ HEADER
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+header div > img, span, .blue-button{
+    padding: 5px 10px;
 }
 
+header img{
+    width: 30%;
+}
 
+header img, span{
+    vertical-align: middle;
+}
 
+header .blue-button{
+    margin-right: 10px;
+}
+header a{
+    font-size: small;
+    text-decoration: none;
+    color: #3C3C3C;
+}
 
 
 /* 
 MAIN
 */
 
+
+
+main > section:first-child{
+    background-color: #B4D0E7;
+}
+.blue-background{
+    background-color: #B4D0E7;
+}
+
+.questions, .blue-background{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .my-row{
     display: flex;
 }
@@ -49,7 +99,14 @@ MAIN
 .big-column{
     width: 50%;
 }
+.big-column, .small-column{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
+.plane-business{
+    padding-top: 80px;
+}
 .price-row{
     display: flex;
     justify-content: space-between;
@@ -59,7 +116,17 @@ MAIN
     width: 30%;
 }
 
-.business{
+.team-box{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.operation-section, .discover{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.operation{
     flex-wrap: wrap;
 }
 
@@ -77,6 +144,9 @@ MAIN
 .logo-box{
     width: calc(100% / 2);
 }
+
+
+
 /* 
 FOOTER
 */
@@ -92,9 +162,9 @@ FOOTER
 DEBUG
 */
 
-.debug header{
+/* .debug header{
     background-color: aquamarine;
-}
+} */
 
 .debug main > div{
     border: 2px dashed red;
@@ -110,12 +180,12 @@ DEBUG
 
 .debug .small-column{
     background-color: blueviolet;
-    min-height: 250px;
+    min-height: 300px;
 }
 
 .debug .big-column{
     background-color: palevioletred;
-    min-height: 250px;
+    min-height: 300px;
 }
 
 .debug .price-column{
