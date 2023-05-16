@@ -81,7 +81,9 @@ MAIN
 FOOTER
 */
 
-
+.column-list{
+    width: calc(100% / 5);
+}
 
 
 
