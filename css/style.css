@@ -21,8 +21,10 @@
     max-width: 800px;
 }
 
+/* ICONS/TEXT/BUTTON STYLE */
 h1{
     font-size: 3.5em;
+    padding-top: 40px;
 }
 
 p{
@@ -38,6 +40,16 @@ button{
 .blue-button{
     color: white;
     background-color: #0061FF;
+}
+
+.arrow-down{
+    font-size: 3em;
+    position: absolute;
+    bottom: 40px;
+}
+
+.fa-check{
+    color: blue;
 }
 
 /* 
@@ -76,10 +88,10 @@ MAIN
 */
 
 
-
 main > section:first-child{
     background-color: #B4D0E7;
 }
+
 .blue-background{
     background-color: #B4D0E7;
 }
@@ -88,25 +100,38 @@ main > section:first-child{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .my-row{
     display: flex;
 }
 
-.small-column{
+.first-small-column{
     width: 30%;
+    position: relative;
 }
 
-.big-column{
-    width: 50%;
+.first-big-column{
+    width: 60%;
 }
-.big-column, .small-column{
+
+.first-big-column > img{
+    width: 100%;
+}
+
+.first-big-column, .first-small-column{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: -40px;
+}
+
+.input-radio{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .plane-business{
     padding-top: 80px;
 }
+
 .price-row{
     display: flex;
     justify-content: space-between;
@@ -114,13 +139,65 @@ main > section:first-child{
 
 .price-column{
     width: 30%;
+    border: 1px solid grey;
+}
+
+.price-column p:first-child{
+    text-align: center;
+    padding: 10px;
+}
+.team-box p:first-child{
+    text-align: center;
+    padding: 10px;
+}
+
+.price-column div > *{
+    padding: 5px 10px;
+}
+
+.price-column > div{
+    padding-top: 15px;
+}
+
+.price-column div > .blue-button{
+    margin-left: 20px;
+}
+
+.point-plane{
+    padding-top: 5px;
 }
 
 .team-box{
     margin-top: 30px;
     margin-bottom: 40px;
+    position: relative;
+    border: 1px solid grey;
+}
+.team-button{
+    position: absolute;
+    top: 50px;
+    right: 10px;
 }
 
+.enterprise > *{
+    padding: 15px 15px;
+}
+.small-column{
+    width: 30%;
+}
+
+.big-column{
+    width: 60%;
+}
+
+.big-column > img{
+    width: 100%;
+}
+
+.big-column, .small-column{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 .operation-section, .discover{
     padding-top: 20px;
     padding-bottom: 50px;
@@ -188,16 +265,16 @@ DEBUG
     min-height: 300px;
 }
 
-.debug .price-column{
+/* .debug .price-column{
     background-color: aquamarine;
     border: 2px solid black;
     min-height: 700px;
-}
+} */
 
-.debug .team-box{
+/* .debug .team-box{
     background-color: cadetblue;
     min-height: 200px;
-}
+} */
 
 .debug .six-column{
     background-color: lightseagreen;
