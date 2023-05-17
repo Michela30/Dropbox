@@ -37,15 +37,17 @@ button{
     margin-bottom: 15px;
 }
 
-.blue-button{
+.blue-button a{
     color: white;
     background-color: #0061FF;
+    text-decoration: none;
+    padding: 5px;
 }
 
-.arrow-down{
+.fa-arrow-down{
     font-size: 3em;
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
 }
 
 .fa-check{
@@ -61,25 +63,26 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header div > img, span, .blue-button{
+header nav ul > li{
     padding: 5px 10px;
 }
 
-header img{
-    width: 30%;
+header li img{
+    width: 90%;
 }
 
-header img, span{
+header nav li{
     vertical-align: middle;
 }
 
-header .blue-button{
-    margin-right: 10px;
-}
 header a{
     font-size: small;
     text-decoration: none;
     color: #3C3C3C;
+}
+
+header nav li{
+    display: inline-block;
 }
 
 
@@ -111,7 +114,7 @@ main > section:first-child{
 }
 
 .first-big-column{
-    width: 60%;
+    width: 70%;
 }
 
 .first-big-column > img{
@@ -132,9 +135,10 @@ main > section:first-child{
     padding-top: 80px;
 }
 
-.price-row{
+.my-main-row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .price-column{
@@ -145,10 +149,12 @@ main > section:first-child{
 .price-column p:first-child{
     text-align: center;
     padding: 10px;
+    border-bottom: 1px solid grey;
 }
 .team-box p:first-child{
     text-align: center;
     padding: 10px;
+    border-bottom: 1px solid grey;
 }
 
 .price-column div > *{
@@ -156,7 +162,7 @@ main > section:first-child{
 }
 
 .price-column > div{
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .price-column div > .blue-button{
@@ -164,7 +170,7 @@ main > section:first-child{
 }
 
 .point-plane{
-    padding-top: 5px;
+    margin-bottom: 10px;
 }
 
 .team-box{
@@ -203,12 +209,10 @@ main > section:first-child{
     padding-bottom: 50px;
 }
 
-.operation{
-    flex-wrap: wrap;
-}
-
-.six-column{
-    width: calc(100% / 3);
+.operation-column{
+    width: 30%;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .square-column{
@@ -276,7 +280,7 @@ DEBUG
     min-height: 200px;
 } */
 
-.debug .six-column{
+.debug .operation-column{
     background-color: lightseagreen;
     border: 1px solid black;
     min-height: 250px;
