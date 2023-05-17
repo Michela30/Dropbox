@@ -44,6 +44,16 @@ button{
     padding: 5px;
 }
 
+.white-button a{
+    text-decoration: none;
+    color: black;
+}
+.white-button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
 .fa-arrow-down{
     font-size: 3em;
     position: absolute;
@@ -196,8 +206,13 @@ main > section:first-child{
 .enterprise > *{
     padding: 15px 15px;
 }
+
 .small-column{
     width: 30%;
+    margin-left: 40px;
+}
+.small-column > h3,p{
+    padding-top: 30px;
 }
 
 .big-column{
@@ -214,13 +229,25 @@ main > section:first-child{
 }
 .operation-section, .discover{
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .operation-column{
     width: 30%;
     margin-bottom: 30px;
     margin-top: 20px;
+}
+
+.operation-column img{
+    width: 100%;
+}
+
+.discover{
+    width: 60%;
+}
+.discover h2{
+    font-size: 2em;
+    padding-bottom: 30px;
 }
 
 .square-column{
@@ -267,7 +294,7 @@ DEBUG
     background-color: lightgreen;
 }
 
-.debug .small-column{
+/* .debug .small-column{
     background-color: blueviolet;
     min-height: 300px;
 }
@@ -275,7 +302,7 @@ DEBUG
 .debug .big-column{
     background-color: palevioletred;
     min-height: 300px;
-}
+} */
 
 /* .debug .price-column{
     background-color: aquamarine;
@@ -288,11 +315,11 @@ DEBUG
     min-height: 200px;
 } */
 
-.debug .operation-column{
+/* .debug .operation-column{
     background-color: lightseagreen;
     border: 1px solid black;
     min-height: 250px;
-}
+} */
 
 .debug .square-column{
     background-color: lightgrey;
