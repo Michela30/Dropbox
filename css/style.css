@@ -69,6 +69,14 @@ button{
     bottom: 30px;
     font-size: 0.8em;
 }
+.fa-earth-europe, .fa-sort-up{
+    font-size: small;
+    padding-right: 5px;
+}
+
+.fa-sort-up{
+vertical-align: bottom;
+}
 /* 
 HEADER
 */
@@ -211,7 +219,7 @@ main > section:first-child{
     width: 30%;
     margin-left: 40px;
 }
-.small-column > h3,p{
+.text-small-column > *{
     padding-top: 30px;
 }
 
@@ -237,6 +245,10 @@ main > section:first-child{
 .operation-column img{
     width: 100%;
 }
+.operation-column > div{
+    padding-bottom: 10px;
+}
+
 
 .discover{
     padding-top: 80px;
@@ -353,13 +365,38 @@ main > section:first-child{
 /* 
 FOOTER
 */
-
-.column-list{
+footer{
+    background-color: black;
+    color: white;
+}
+.column-menu{
     width: calc(100% / 5);
 }
 
+footer a{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
 
+footer ul >*{
+    list-style-type: none;
+}
 
+footer h3,li{
+    padding-bottom:10px;
+}
+
+footer h3{
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.column-menu hr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100px;
+}
 
 /* 
 DEBUG
@@ -377,9 +414,9 @@ DEBUG
     border: 2px dashed green;
 } */
 
-.debug footer{
+/* .debug footer{
     background-color: lightgreen;
-}
+} */
 
 /* .debug .small-column{
     background-color: blueviolet;
