@@ -21,10 +21,14 @@
     max-width: 800px;
 }
 
-/* ICONS/TEXT/BUTTON STYLE */
+/* ICONS/TEXT/BUTTON/HR STYLE */
 h1{
     font-size: 3.5em;
     padding-top: 40px;
+}
+
+h2{
+    font-size: 2em;
 }
 
 p{
@@ -66,7 +70,7 @@ button{
 .fa-chevron-down{
     position: absolute;
     right: 30px;
-    bottom: 30px;
+    bottom: 35px;
     font-size: 0.8em;
 }
 .fa-earth-europe, .fa-sort-up{
@@ -77,6 +81,19 @@ button{
 .fa-sort-up{
 vertical-align: bottom;
 }
+
+.by-now hr{
+    margin-top: 15px;
+    width: 40px;
+}
+.middle-logo-box hr{
+    width: 80px;
+}
+.column-menu hr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100px;
+}
 /* 
 HEADER
 */
@@ -85,6 +102,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
 }
 header nav ul > li{
     padding: 5px 10px;
@@ -141,7 +162,7 @@ main > section:first-child{
 
 .first-big-column, .first-small-column{
     margin-top: 40px;
-    margin-bottom: -40px;
+    margin-bottom: -70px;
 }
 
 .input-radio{
@@ -149,8 +170,14 @@ main > section:first-child{
     margin-bottom: 20px;
 }
 
+.input-radio > input, label{
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 .plane-business{
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 .my-main-row{
@@ -190,10 +217,6 @@ main > section:first-child{
 .by-now{
     margin-left: 5px;
 }
-.by-now hr{
-    margin-top: 15px;
-    width: 40px;
-}
 
 .point-plane{
     margin-bottom: 10px;
@@ -208,7 +231,7 @@ main > section:first-child{
 .team-button{
     position: absolute;
     top: 50px;
-    right: 10px;
+    right: 20px;
 }
 
 .enterprise > *{
@@ -241,7 +264,9 @@ main > section:first-child{
     margin-bottom: 30px;
     margin-top: 20px;
 }
-
+.operation-section h2{
+    padding-bottom: 30px;
+}
 .operation-column img{
     width: 100%;
 }
@@ -265,6 +290,7 @@ main > section:first-child{
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 .logo-box{
@@ -323,16 +349,11 @@ main > section:first-child{
     padding-bottom: 30px;
 }
 
-.middle-logo-box hr{
-    width: 80px;
-}
-
 .my-main-row .agency-title{
     color: #610628;
     padding-top: 80px;
     padding-bottom: 80px;
     width: 50%;
-    font-size: 1.2em;
 }
 
 .agency-button{
@@ -360,6 +381,10 @@ main > section:first-child{
 
 .faq-section{
     position: relative;
+}
+
+.faq-section p{
+    padding-top: 30px;
 }
 
 /* 
@@ -391,13 +416,9 @@ footer h3{
     padding-top: 60px;
     padding-bottom: 15px;
 }
-
-.column-menu hr{
-    margin-top: 50px;
-    margin-bottom: 30px;
-    width: 100px;
+.lenguage {
+    padding-bottom: 30px;
 }
-
 /* 
 DEBUG
 */
