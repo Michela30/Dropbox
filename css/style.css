@@ -157,16 +157,24 @@ main > section:first-child{
     border-bottom: 1px solid grey;
 }
 
-.price-column div > *{
-    padding: 5px 10px;
+.price-column > *{
+    padding: 15px 15px;
 }
 
-.price-column > div{
-    padding-top: 10px;
+.price-column ul >*{
+    list-style-type: none;
+    padding-bottom: 10px;
 }
 
-.price-column div > .blue-button{
-    margin-left: 20px;
+.price-column h3,li{
+    padding-bottom: 15px;
+}
+.by-now{
+    margin-left: 5px;
+}
+.by-now hr{
+    margin-top: 15px;
+    width: 40px;
 }
 
 .point-plane{
