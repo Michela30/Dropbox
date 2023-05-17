@@ -56,14 +56,19 @@ button{
 
 .fa-arrow-down{
     font-size: 3em;
-    position: absolute;
-    bottom: 50px;
+    padding-top: 60px;
 }
 
 .fa-check{
     color: blue;
 }
 
+.fa-chevron-down{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 0.8em;
+}
 /* 
 HEADER
 */
@@ -109,10 +114,6 @@ main > section:first-child{
     background-color: #B4D0E7;
 }
 
-.questions, .blue-background{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
 .my-row{
     display: flex;
@@ -120,7 +121,6 @@ main > section:first-child{
 
 .first-small-column{
     width: 30%;
-    position: relative;
 }
 
 .first-big-column{
@@ -227,10 +227,6 @@ main > section:first-child{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.operation-section, .discover{
-    padding-top: 20px;
-    padding-bottom: 80px;
-}
 
 .operation-column{
     width: 30%;
@@ -243,6 +239,8 @@ main > section:first-child{
 }
 
 .discover{
+    padding-top: 80px;
+    padding-bottom: 80px;
     width: 60%;
 }
 .discover h2{
@@ -259,9 +257,98 @@ main > section:first-child{
 
 .logo-box{
     width: calc(100% / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.logo-box img{
+    width: 50%;
+    filter: invert(1);
+}
 
+.first-logo {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+.second-logo {
+    background-color: #61082B;
+}
+.third-logo {
+    background-color: #0093CE;
+}
+.fourth-logo {
+    background-color: #FF1C1C;
+}
+.fifth-logo {
+    background-color: #D5001F;
+}
+.sixth-logo {
+    background-color: #B4D0E7;
+}
+.seventh-logo {
+    background-color: #0D2481;
+}
+.eighth-logo {
+    background-color: #FFD830;
+}
+
+.box{
+    background-color: #F5F5F5;
+}
+
+.middle-logo-box img{
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.middle-logo-box > div{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.middle-logo-box p{
+    padding-bottom: 30px;
+}
+
+.middle-logo-box hr{
+    width: 80px;
+}
+
+.my-main-row .agency-title{
+    color: #610628;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.agency-button{
+    margin-top: 80px;
+    width: 30%;
+}
+
+.agency-button button{
+    padding: 8px 30px;
+}
+
+.agency-button button a{
+    text-decoration: none;
+    color: black;
+}
+
+.faq{ 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.faq h2{
+    padding-bottom: 40px;
+}
+
+.faq-section{
+    position: relative;
+}
 
 /* 
 FOOTER
@@ -282,13 +369,13 @@ DEBUG
     background-color: aquamarine;
 } */
 
-.debug main > div{
+/* .debug main > div{
     border: 2px dashed red;
 }
 
 .debug main div > section{
     border: 2px dashed green;
-}
+} */
 
 .debug footer{
     background-color: lightgreen;
@@ -321,10 +408,10 @@ DEBUG
     min-height: 250px;
 } */
 
-.debug .square-column{
+/* .debug .square-column{
     background-color: lightgrey;
-}
+} */
 
-.debug .logo-box{
+/* .debug .logo-box{
     background-color: brown;
-}
+} */
