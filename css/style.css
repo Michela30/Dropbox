@@ -37,15 +37,22 @@ p{
 
 button{
     border: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .blue-button a{
     color: white;
     background-color: #0061FF;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px 15px;
+}
+
+.little-blue-button {
+    color: white;
+    background-color: #0061FF;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
 .white-button a{
@@ -61,16 +68,18 @@ button{
 .fa-arrow-down{
     font-size: 3em;
     padding-top: 60px;
+    color: black;
+    text-decoration: none;
 }
 
 .fa-check{
     color: blue;
 }
 
-.fa-chevron-down{
+.faq-section a .fa-chevron-down{
     position: absolute;
     right: 30px;
-    bottom: 35px;
+    bottom: 30px;
     font-size: 0.8em;
 }
 .fa-earth-europe, .fa-sort-up{
@@ -127,6 +136,7 @@ header a{
 
 header nav li{
     display: inline-block;
+    list-style-type: none;
 }
 
 
@@ -208,12 +218,8 @@ main > section:first-child{
 
 .price-column ul >*{
     list-style-type: none;
-    padding-bottom: 10px;
 }
 
-.price-column h3,li{
-    padding-bottom: 15px;
-}
 .by-now{
     margin-left: 5px;
 }
@@ -236,6 +242,10 @@ main > section:first-child{
 
 .enterprise > *{
     padding: 15px 15px;
+}
+
+.enterprise{
+    width: 80%;
 }
 
 .small-column{
@@ -357,7 +367,7 @@ main > section:first-child{
 }
 
 .agency-button{
-    margin-top: 80px;
+    margin-top: 70px;
     width: 30%;
 }
 
@@ -385,6 +395,7 @@ main > section:first-child{
 
 .faq-section p{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* 
