@@ -1,0 +1,367 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.small-container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* ICONS/TEXT/BUTTON/HR STYLE */
+h1{
+    font-size: 2.5em;
+    padding-top: 40px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: small;
+}
+
+button{
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blue-button a{
+    color: white;
+    background-color: #0061FF;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.little-blue-button {
+    color: white;
+    background-color: #0061FF;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.white-button a{
+    text-decoration: none;
+    color: black;
+}
+.white-button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+.fa-arrow-down{
+    font-size: 3em;
+    padding-top: 60px;
+    color: black;
+    text-decoration: none;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.faq-section a .fa-chevron-down{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 0.8em;
+}
+.fa-earth-europe, .fa-sort-up{
+    font-size: small;
+    padding-right: 5px;
+}
+
+.fa-sort-up{
+vertical-align: bottom;
+}
+
+.by-now hr{
+    margin-top: 15px;
+    width: 40px;
+}
+.middle-logo-box hr{
+    width: 80px;
+}
+.column-menu hr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100px;
+}
+/* 
+HEADER
+*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+header nav ul > li{
+    padding: 5px 10px;
+}
+
+header li img{
+    width: 90%;
+}
+
+header nav li{
+    vertical-align: middle;
+}
+
+header a{
+    font-size: small;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+header nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+/* Prova bonus */
+.header-main{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+}
+.header-button > *{
+    padding-left: 15px;
+
+}
+.header-button a{
+    text-decoration: none;
+    color: white;
+}
+.header-button hr {
+    color: white;
+    padding-left: 10px;
+    width: 20px;
+    display: block;
+ }
+
+/* 
+Main
+ */
+.scopri-di-più{
+    display: flex;
+}
+
+.block{
+    background-color: black;
+    width: 50%;
+}
+
+.second-block{
+    background-color: #B4DD19;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.people{
+    width: calc(100% / 2);
+}
+
+.people img{
+    width: 100%;
+    border-bottom-left-radius: 50%;
+}
+
+.about-us{
+    padding: 20px 30px;
+}
+
+.about-us > *{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.full-background{
+    background-image: url(../img2/pexels-christina-morillo-1181465.jpg);
+    width: 100%;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.blue-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+}
+
+.blue-box {
+    padding: 30px 40px;
+    background-color: #2A3752;
+  
+}
+
+.blue-box div > a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.video{
+    position: relative;
+}
+.fa-circle-play{
+    position: absolute;
+    bottom: -30px;
+    right: -40px;
+    background-color: white;
+    color: black;
+    font-size: small;
+    padding: 15px;
+}
+
+.people-agency img{
+    width: 100%;
+}
+
+.agency{
+    background-color: white;
+    color: black;
+    width: 50%;
+}
+
+.agency >*{
+    padding: 20px 30px;
+}
+
+.agency button {
+    margin-top: 200px;
+}
+
+.recensioni{
+    display: flex;
+}
+
+.recensioni-row{
+    width: calc(100% / 4);
+
+}
+.main-recensioni{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.main-recensioni h2{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.recensioni-row img{
+    width: 100%; 
+}
+
+.recensioni-row div >*{
+    color: black;
+    padding-top: 40px;
+    padding-left: 30px
+}
+
+.recensioni-row:nth-of-type(even){
+    background-color: white;
+}
+
+[class$="ar"]{
+    color: yellow;
+    font-size: medium;
+}
+
+.partnership{
+    background-color: #B4DD19;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.partnership h2{
+    text-align: center; 
+}
+.partnership ,discover{
+    text-align: center; 
+}
+
+.logo-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+    justify-content: center;
+}
+
+.logo-box{
+    width: calc((100% / 5) - 20px);
+    min-height: 100px;
+    margin: 20px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-box img{
+    width: 40%;
+}
+
+/* 
+FOOTER
+*/
+
+.my-row{
+    display: flex;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.column-menu{
+    width: calc(100% / 5);
+}
+
+footer a{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul >*{
+    list-style-type: none;
+}
+
+footer h3,li{
+    padding-bottom:10px;
+}
+
+footer h3{
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.lenguage {
+    padding-bottom: 30px;
+}

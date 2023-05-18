@@ -1,0 +1,488 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.small-container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* ICONS/TEXT/BUTTON/HR STYLE */
+h1{
+    font-size: 3.5em;
+    padding-top: 40px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: small;
+}
+
+button{
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blue-button a{
+    color: white;
+    background-color: #0061FF;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.little-blue-button {
+    color: white;
+    background-color: #0061FF;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.white-button a{
+    text-decoration: none;
+    color: black;
+}
+.white-button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+.fa-arrow-down{
+    font-size: 3em;
+    padding-top: 60px;
+    color: black;
+    text-decoration: none;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.faq-section a .fa-chevron-down{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 0.8em;
+}
+.fa-earth-europe, .fa-sort-up{
+    font-size: small;
+    padding-right: 5px;
+}
+
+.fa-sort-up{
+vertical-align: bottom;
+}
+
+.by-now hr{
+    margin-top: 15px;
+    width: 40px;
+}
+.middle-logo-box hr{
+    width: 80px;
+}
+.column-menu hr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100px;
+}
+/* 
+HEADER
+*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+header nav ul > li{
+    padding: 5px 10px;
+}
+
+header li img{
+    width: 90%;
+}
+
+header nav li{
+    vertical-align: middle;
+}
+
+header a{
+    font-size: small;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+header nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+/* 
+MAIN
+*/
+
+
+main > section:first-child{
+    background-color: #B4D0E7;
+}
+
+.blue-background{
+    background-color: #B4D0E7;
+}
+
+
+.my-row{
+    display: flex;
+}
+
+.first-small-column{
+    width: 30%;
+}
+
+.first-big-column{
+    width: 70%;
+}
+
+.first-big-column > img{
+    width: 100%;
+}
+
+.first-big-column, .first-small-column{
+    margin-top: 40px;
+    margin-bottom: -70px;
+}
+
+.input-radio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-radio > input, label{
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.plane-business{
+    padding-top: 120px;
+}
+
+.my-main-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.price-column{
+    width: 30%;
+    border: 1px solid grey;
+}
+
+.price-column p:first-child{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.team-box p:first-child{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.price-column > *{
+    padding: 15px 15px;
+}
+
+.price-column ul >*{
+    list-style-type: none;
+}
+
+.by-now{
+    margin-left: 5px;
+}
+
+.point-plane{
+    margin-bottom: 10px;
+}
+
+.team-box{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    border: 1px solid grey;
+}
+.team-button{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.enterprise > *{
+    padding: 15px 15px;
+}
+
+.enterprise{
+    width: 80%;
+}
+
+.small-column{
+    width: 30%;
+    margin-left: 40px;
+}
+.text-small-column > *{
+    padding-top: 30px;
+}
+
+.big-column{
+    width: 60%;
+}
+
+.big-column > img{
+    width: 100%;
+}
+
+.big-column, .small-column{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.operation-column{
+    width: 30%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.operation-section h2{
+    padding-bottom: 30px;
+}
+.operation-column img{
+    width: 100%;
+}
+.operation-column > div{
+    padding-bottom: 10px;
+}
+
+
+.discover{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 60%;
+}
+.discover h2{
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+
+.square-column{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.logo-box{
+    width: calc(100% / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-box img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.first-logo {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+.second-logo {
+    background-color: #61082B;
+}
+.third-logo {
+    background-color: #0093CE;
+}
+.fourth-logo {
+    background-color: #FF1C1C;
+}
+.fifth-logo {
+    background-color: #D5001F;
+}
+.sixth-logo {
+    background-color: #B4D0E7;
+}
+.seventh-logo {
+    background-color: #0D2481;
+}
+.eighth-logo {
+    background-color: #FFD830;
+}
+
+.box{
+    background-color: #F5F5F5;
+}
+
+.middle-logo-box img{
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.middle-logo-box > div{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.middle-logo-box p{
+    padding-bottom: 30px;
+}
+
+.my-main-row .agency-title{
+    color: #610628;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 50%;
+}
+
+.agency-button{
+    margin-top: 70px;
+    width: 30%;
+}
+
+.agency-button button{
+    padding: 8px 30px;
+}
+
+.agency-button button a{
+    text-decoration: none;
+    color: black;
+}
+
+.faq{ 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.faq h2{
+    padding-bottom: 40px;
+}
+
+.faq-section{
+    position: relative;
+}
+
+.faq-section p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* 
+FOOTER
+*/
+footer{
+    background-color: black;
+    color: white;
+}
+.column-menu{
+    width: calc(100% / 5);
+}
+
+footer a{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul >*{
+    list-style-type: none;
+}
+
+footer h3,li{
+    padding-bottom:10px;
+}
+
+footer h3{
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.lenguage {
+    padding-bottom: 30px;
+}
+/* 
+DEBUG
+*/
+
+/* .debug header{
+    background-color: aquamarine;
+} */
+
+/* .debug main > div{
+    border: 2px dashed red;
+}
+
+.debug main div > section{
+    border: 2px dashed green;
+} */
+
+/* .debug footer{
+    background-color: lightgreen;
+} */
+
+/* .debug .small-column{
+    background-color: blueviolet;
+    min-height: 300px;
+}
+
+.debug .big-column{
+    background-color: palevioletred;
+    min-height: 300px;
+} */
+
+/* .debug .price-column{
+    background-color: aquamarine;
+    border: 2px solid black;
+    min-height: 700px;
+} */
+
+/* .debug .team-box{
+    background-color: cadetblue;
+    min-height: 200px;
+} */
+
+/* .debug .operation-column{
+    background-color: lightseagreen;
+    border: 1px solid black;
+    min-height: 250px;
+} */
+
+/* .debug .square-column{
+    background-color: lightgrey;
+} */
+
+/* .debug .logo-box{
+    background-color: brown;
+} */
+
+
